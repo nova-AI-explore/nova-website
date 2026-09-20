@@ -1,26 +1,29 @@
 # NOVA Website
 
-Official NOVA AI website — futuristic landing page, responsive mobile design, animated NOVA Core, feature showcase, and direct Android download.
+The official multi-page NOVA website.
 
-## Android releases
+## Pages
+- Home
+- NOVA AI
+- Experience
+- Universe
+- Downloads
+- Updates
+- About
+- Privacy Policy
+- Terms of Service
+- Cookie Policy
+- Acceptable Use
+- Open Source Licenses
 
-The website expects the latest GitHub Release to contain an asset named:
+## Publishing
+GitHub Pages deploys the `main` branch through the workflow in `.github/workflows/pages.yml`.
 
-`NOVA.apk`
+## Downloads
+The Android card currently points to the official GitHub release asset:
+`NOVA.apk`.
 
-The download button uses:
+Additional platform cards intentionally remain marked as coming soon until real official builds exist. Do not publish fake download links.
 
-`/releases/latest/download/NOVA.apk`
-
-and automatically reads the latest release tag from GitHub to display the current version.
-
-## GitHub Pages
-
-A workflow is included at `.github/workflows/pages.yml`. Enable GitHub Pages in the repository settings and select **GitHub Actions** as the source.
-
-## Project
-
-- `index.html` — website structure
-- `styles.css` — futuristic responsive UI
-- `script.js` — animations, reveal effects, and latest-release lookup
-- `assets/nova-mark.svg` — NOVA icon
+## Legal
+The legal pages are a starting point and should be reviewed for the actual NOVA company/operator, jurisdictions, data practices, contact details, analytics, cookies, accounts, AI processing and product behavior before production launch.
