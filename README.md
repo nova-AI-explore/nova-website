@@ -20,10 +20,10 @@ The official multi-page NOVA website.
 GitHub Pages deploys the `main` branch through the workflow in `.github/workflows/pages.yml`.
 
 ## Downloads
-The Android card currently points to the official GitHub release asset:
-`NOVA.apk`.
+The Android card points to the official NOVA GitHub release asset:
+`NOVA.apk` from `nova-AI-explore/nova-website`.
 
-Additional platform cards intentionally remain marked as coming soon until real official builds exist. Do not publish fake download links.
+Windows, macOS, Linux and iOS cards point to the official Releases page until real builds for those platforms are published. The site does not claim unsupported or nonexistent downloads.
 
 ## Legal
 The legal pages are a starting point and should be reviewed for the actual NOVA company/operator, jurisdictions, data practices, contact details, analytics, cookies, accounts, AI processing and product behavior before production launch.
